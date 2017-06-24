@@ -1,69 +1,31 @@
 body {
-    padding: 0;
     margin: 0;
-    background: #99ccff;
-}
-
-
-.header {
-    background-image: url("backgrounds/world.jpg");
-    height: 400px;
-    background-position: center center;
-}
-
-h1 {
-    margin: auto;
-    position:static;
-    text-align: center;
-    top: 25%;
-    width: 80%;
-    font-family: 'Audiowide', cursive;
-    font-style: italic;
-    font-size: 60px;
-    color:darkgray;
-    text-transform: uppercase;
-}
-
-/** List style **/
-
-h2 {
-    color: darkcyan;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 50px;
-    font-weight: 500;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-ul {
-    margin: 0 auto;
     padding: 0;
-    width: 50%;
 }
 
-li {
-    border-bottom: 1px solid;
-    list-style: none;
-    margin: 100px 0px;
-    padding-bottom: 60px;
+header {
+    background: #999;
+    color: white;
 }
 
-p {
-    color: #444444;
-    line-height: 32px;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 100;
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+}
+
+nav ul li {
+    background: none;
+    color: blue;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
 }
 
 a {
-    color: dimgray;
-    font-family: sans-serif;
-    font-size: 13px;
-    font-weight: 900;
-    text-align: left;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
+    color: crimson;
 }
-
