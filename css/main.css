@@ -1,25 +1,25 @@
 body {
-  padding: 0;
-  margin: 0;
-  background: #99ccff;
+    padding: 0;
+    margin: 0;
+    background: #99ccff;
 }
 
 
 .header {
-  background-image: url("backgrounds/world.jpg");
-  height: 400px;
-  background-position: center center;
+    background-image: url("backgrounds/world.jpg");
+    height: 400px;
+    background-position: center center;
 }
 
 h1 {
     margin: auto;
-    position: relative;
+    position:static;
     text-align: center;
     top: 25%;
-    width: 60%;
-    font-family: monospace, cosole;
+    width: 80%;
+    font-family: 'Audiowide', cursive;
     font-style: italic;
-    font-size: 100px;
+    font-size: 60px;
     color:darkgray;
     text-transform: uppercase;
 }
@@ -27,43 +27,43 @@ h1 {
 /** List style **/
 
 h2 {
-  color: darkcyan;
-  font-family: 'Raleway', sans-serif;
-  font-size: 50px;
-  font-weight: 500;
-  text-align: left;
-  text-transform: uppercase;
+    color: darkcyan;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 ul {
-  margin: 0 auto;
-  padding: 0;
-  width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
 }
 
 li {
-  border-bottom: 1px solid;
-  list-style: none;
-  margin: 100px 0px;
-  padding-bottom: 60px;
+    border-bottom: 1px solid;
+    list-style: none;
+    margin: 100px 0px;
+    padding-bottom: 60px;
 }
 
 p {
-  color: #444444;
-  line-height: 32px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  font-weight: 100;
+    color: #444444;
+    line-height: 32px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 a {
-  color: dimgray;
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  font-weight: 900;
-  text-align: left;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2px;
+    color: dimgray;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
 }
 
