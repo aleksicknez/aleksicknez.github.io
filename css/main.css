@@ -62,6 +62,14 @@ footer {
     font-family: monospace;
 }
 
-.MeBlock {
+.meBlock {
     border: solid;
+}
+
+.active {
+    color: red;
+}
+
+.activeHeader {
+    background-color: red;
 }
