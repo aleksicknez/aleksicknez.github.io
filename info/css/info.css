@@ -1,0 +1,106 @@
+/* BODY */
+
+body {
+    background-color: #1B243F;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAV BAR */
+
+header {
+    background: #999;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+}
+
+nav {
+    text-align: center;
+    border: solid;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+nav ul li {
+    background: none;
+    color: blue;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 0px;
+    border: solid;
+    border-color: black;
+    padding: 3px 3px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+}
+
+/* My name and pic */
+
+#meblock {
+    border: solid;
+    margin: auto;
+    width: 50%;
+}
+
+#meblock h1{
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border: solid;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+#meblock img {
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+}
+
+/* About me */
+
+#about {
+    border: solid;
+    margin: auto;
+    width: 50%;
+}
+
+/* basic info */
+
+#basicinfo {
+    border: solid;
+    margin: auto;
+    width: 50%;
+}
+
+/* skills */
+
+#skills {
+    border: solid;
+    margin: auto;
+    width: 50%;
+}
+
+/* hobbies */
+
+#hobbies {
+    border: solid;
+    margin: auto;
+    width: 50%;
+}
+
+
+
+

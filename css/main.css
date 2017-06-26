@@ -43,6 +43,22 @@ h2 {
     margin-right: auto;
 }
 
+#description {
+    display: block;
+    border: 10px;
+    border: solid;
+}
+
+#description p {
+    color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#hello {
+    color: red;
+}
+
 a {
     color: black;
     font-family:monospace;

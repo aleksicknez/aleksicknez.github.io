@@ -11,7 +11,7 @@ function main(){
     
     $("h2").click(
         function(){
-            $("div").hide(1000);
+            $(".meBlock").hide(1000);
         }
     );
     
