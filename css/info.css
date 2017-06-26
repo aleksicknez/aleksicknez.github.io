@@ -17,6 +17,7 @@ header h1 {
     margin: 0;
     display: inline;
     margin-left: 10px;
+    font-family: 'Patrick Hand SC', cursive;
 }
 
 nav ul {
@@ -42,9 +43,11 @@ nav ul li {
 }
 
 a {
-    border: solid /*#343A4B*/;
+    border: solid;
     margin: 0px;
     padding: 3px 3px;
+    font-family: 'Patrick Hand SC', cursive;
+    border-radius: 20%;
 }
 
 .navlink {
