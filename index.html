@@ -3,44 +3,97 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Front page</title>
-        <link href="css/main.css" rel="stylesheet">
+        <title>Info page</title>
+        <link href="css/info.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Roboto+Slab|Tenali+Ramakrishna|Yanone+Kaffeesatz" rel="stylesheet">
     </head>
-    <body>
+<body>
+    <div id="navbar">
         <header>
             <nav>
-                <h1>My Page</h1>
+                <h1>
+                    Navigation
+                </h1>
                 <ul>
                     <li class="tlink">
-                        <a href="index.html">Home</a>
+                        <a class="navlink" href="/index.html">Home</a>
                     </li>
                     <li class="tlink">
-                        <a href="webdev/index.html">HTML + CSS (demopage)</a>
+                        <a class="navlink" href="http://aleksipartanen.com/webdev/index.html" target="_blank">Demopage</a>
                     </li>
                     <li class="tlink">
-                        <a href="#">JS_Testing (coming soon)</a>
+                        <a class="navlink" href="https://www.facebook.com/aleks1ck" target="_blank">Facebook</a>
                     </li>
                     <li class="tlink">
-                        <a href="https://linkedin.com/in/aleksi-partanen">LinkedIn</a>
+                        <a class="navlink" href="https://linkedin.com/in/aleksi-partanen" target="_blank">LinkedIn</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <div class="meBlock">
-            <h2>
-                Owner of this shitty site (click here to hide the owner)
-            </h2>
-            <img src="pics/minä.png">
+    </div>
+    <div>
+        <div id="meblock">
+            <h1>
+                Aleksi Partanen
+            </h1>
+            <img src="pics/minä.png"/>
         </div>
-        <div id="description">
+        <div id="abouth2">
+            <h2>
+                About me
+            </h2>
+        </div>
+        <div id="about">
             <p>
-                <span id="hello">Hello and welcome to my website!</span> I use this website to practice my HTLM, CSS and Javascript skills. Feel free to explore this site even though it doesn’t have a lot of content yet, but (I hope) it will have in the future.
+                I am 23 years old business student who is working as a data warehouse developer. I have made this site for place to me practice my HTML, CSS and JavaScript skills.
             </p>
         </div>
-        <footer>
-            Aleksi's Website
-        </footer>
-        <script src="js/jquery/jquery-3.2.1.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+        <div id="skillsh3">
+            <h3>
+                Programming languages
+            </h3>
+        </div>
+        <div id="skills">
+            <p>
+                SAS
+            </p>
+            <p>
+                Java
+            </p>
+            <p>
+                Python
+            </p>
+            <p>
+                HTML
+            </p>
+            <p>
+                CSS
+            </p>
+            <p>
+                JavaScript
+            </p>
+        </div>
+        <div>
+        <div id="basicinfo">
+            <p>
+                Phone: +358443210793
+            </p>
+            <p>
+                Email: aleksi.matias.partanen@gmail.com
+            </p>
+            <p>
+                Date of birth: 21.07.1993
+            </p>
+            <p>
+                Education: Aalto University School of Business
+            </p>
+        </div>
+            <footer>
+                © Aleksi Partanen
+            </footer>
+        </div>
+    </div>
+    <script src="js/jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>

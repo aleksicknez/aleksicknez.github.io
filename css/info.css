@@ -1,0 +1,172 @@
+/* BODY */
+
+body {
+    background-color: #25272C;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAV BAR */
+
+header {
+    background: #343A4B;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+}
+
+nav {
+    text-align: center;
+    border: solid;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+nav ul li {
+    background: none;
+    color: blue;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 0px;
+    border: solid;
+    border-color: white;
+    padding: 3px 3px;
+    font-size: 20px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    color: #83ACD2;
+}
+
+/* My name and pic */
+
+#meblock {
+    margin: auto;
+    width: 50%;
+    margin: 50px auto 75px auto;
+}
+
+#meblock h1{
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    margin: 0px auto 25px auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+#meblock img {
+    border-color: white;
+    border-radius: 50%;
+    display: block;
+    margin: auto;  
+}
+
+/* About me */
+/* heading */
+
+#abouth2 {
+    margin: auto;
+    width: 50%;
+}
+
+#abouth2 h2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* text */
+
+#about {
+    margin: auto;
+    width: 50%;
+}
+
+#about p {
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: solid 2px;
+    padding-bottom: 20px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+
+/* skills */
+/* heading */
+
+#skillsh3 {
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+#skillsh3 h3 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* list */
+
+#skills {
+    margin: auto;
+    width: 50%;
+}
+
+
+#skills p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+/* basic info */
+
+
+#basicinfo {
+    margin: auto;
+    width: 50%;
+    padding-top: 100px;
+}
+
+#basicinfo p {
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+/* footer */
+
+footer {
+    margin-left: 10px;
+}
+
+
+
+
+
+
