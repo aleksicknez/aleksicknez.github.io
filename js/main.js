@@ -1,12 +1,13 @@
 function main(){
     $("a").hover(
         function(){
-            $(this).addClass("active");
+            $(this,"li").addClass("active");
         },
         function(){
             $(this).removeClass("active");
         }
     );
+    
     
 }
 

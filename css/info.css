@@ -37,10 +37,14 @@ nav ul li {
     display: inline-block;
     list-style-type: none;
     margin: 0px 0px;
-    border: solid;
-    border-color: white;
     padding: 3px 3px;
     font-size: 20px;
+}
+
+a {
+    border: solid /*#343A4B*/;
+    margin: 0px;
+    padding: 3px 3px;
 }
 
 .navlink {
@@ -50,6 +54,7 @@ nav ul li {
 
 .active {
     color: #83ACD2;
+    border-color: #83ACD2;
 }
 
 /* My name and pic */
